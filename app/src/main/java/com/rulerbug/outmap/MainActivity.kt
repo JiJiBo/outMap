@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         locationClient = LocationClient(this)
         locationClient!!.registerLocationListener(MyLocationListener())
         requestDingWei()
-        setMap()
+          setMap()
     }
 
     private fun setMap() {
